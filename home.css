@@ -1,0 +1,623 @@
+/* home style */
+
+
+/*Global Style*/
+
+@import url(webfontkit-20180718-001959/stylesheet.css);
+@import url(league-spartan-master/_webfonts/stylesheet.css);
+@import url(MaterialDesign-Webfont-master/css/materialdesignicons.css);
+@import url(MaterialDesign-Webfont-master/css/materialdesignicons.min.css);
+@import url(opensanas/opensans_light_macroman/stylesheet.css);
+@import url(opensanas/opensans_regular_macroman/stylesheet.css);
+
+body
+    {
+    background-color: #fff;
+        margin:0;
+    }
+
+a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+p
+{
+    font-family: 'libre_baskervilleregular';
+    font-size: 20px;
+    margin: 0;
+    color: #4C4244;
+}
+
+li
+{
+    display: inline-block;
+}
+
+h1
+{
+    margin-top: 0px;
+}
+
+.mdi
+{
+    font-family: "Material Design Icons";
+    margin: 0;
+    color: #4C4244;
+}
+
+/*First Page Style*/
+.background-first
+{
+    background: url(belakang%20background.png);
+    background-size: cover;
+    padding: 30px 30px 0 30px;
+    height: auto;
+}
+
+    #first
+    {
+        background: url(first%20page.png) no-repeat 
+        ; background-size: 100%;
+        height: 888px;
+        background-position: center top;
+        margin:0;
+        font-family: 'League Spartan';
+        text-decoration: none;
+    }
+
+        .middle 
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 92%;
+            margin:  auto ;
+            padding-top: 42px;
+            margin-left: 80px;
+        }
+
+            .parent-logo
+            {
+                width: 10%
+            }
+
+                .logo
+                {
+                    width: 85px;
+                    height: auto
+                }
+
+            .nav
+            {
+                width: 75%;
+                margin-left: -50px;
+                margin-top: -46px;
+                padding-top: 67px;
+            }
+                .left-side-text
+                {
+                    margin-left: 0px;
+                }
+
+                .nav li
+                {
+                    margin: 0 20px ;
+                    letter-spacing: 5px;
+                }
+
+                    .nav li a
+                    {
+                        font-size: 20px;
+                    }
+
+            .search-box
+            {
+                width: 19%;
+                display: inline-flex;
+                margin-top: -10px;
+            }
+
+                .search-box-box
+                {
+                    background: transparent;
+                    border-top: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    border-bottom: solid 1px white;
+                    border-bottom-color: white;
+                }
+
+                input.search-box-box
+                {
+                    font-size: 15px;
+                    vertical-align: middle;
+                    text-align: left;
+                    color: white;
+                }
+                    button.btn
+                    {
+                        border: none;
+                        font-size: 30px;
+                        color:white;
+                        background: none;
+                    }
+
+        .title-screen
+        {
+            position: absolute;
+            width: 100%;
+            margin: 0px;
+            padding: 0;
+            margin-left: -30px;
+            text-align: center;
+            top: 358px;
+        }
+
+            .title-screen-write
+            {
+                font-family: 'libre_baskervilleregular';
+                font-size: 140px;
+                margin: 0;
+                color: #fff;
+            }
+
+/*Second Page Style*/
+.background-second
+{
+    background: url(background%20putih%20faded.png);
+     background-size: cover;
+    padding: 0px 30px 0 30px;
+    height: 537px;
+}
+
+    .content
+    {
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 887px;
+        background-position: center top;
+        margin:0;
+        background-position: center top;
+    }
+
+        .NewMenu
+        {   background-size: 100%;
+            display: flex;
+            /* margin: auto; */
+            text-align: center;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0 auto ;
+        }
+
+            .column-box
+            {
+                margin: 60px 2.5% 0 2.5%;
+                letter-spacing: 1px;
+                width: 25%;
+            }
+
+                .column-logo
+                {
+                    color: #4C4244;
+                    font-size: 66px;
+                    text-align: center;
+                }
+
+                .box-one
+                {   
+                    width: 100%;
+                    margin-top: 20px;
+                    text-align: justify;
+                    text-align-last: center;
+                    font-family: 'open_sansregular';
+                }
+
+/*Third Page Style*/
+.background-third
+{
+    background: url(second%20page%20highlight.png) no-repeat;
+    background-size: cover;
+    padding: 0 30px 0 30px;
+}
+
+    .AboutUs
+    {
+        background: url(second%20Page.png) no-repeat;
+        background-size: 100%;
+        height: 888px;
+        position: relative;
+    }
+
+        .content-about
+        {
+            width: 640px;
+            position: absolute;
+            top: 300px;
+            right: 50px;
+            letter-spacing: 2px;
+            border: solid 2px #4C4244;
+            padding: 20px 40px 30px 40px;
+            /* opacity: 0.5; */
+            background-color: rgba(255,255,255,0.8 );
+        }
+            p.content-about
+            {
+                font-size: 12px;
+            }
+
+            .header-text
+            {
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+            }
+
+                .header-name
+                {
+                    color: #4C4244;
+                    font-size: 30px;
+                    margin-top: 23px;
+                }
+
+            .about-content
+            {   
+                font-family: 'open_sansregular';
+                text-align: justify;
+                text-align-last: center;
+            }
+
+                p.about-content
+                {
+                    color: #4C4244;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    line-height: 30px;
+                }
+
+/*Fourth Page Style*/
+.background-fourth
+{
+    background: url(Background3faded.png) no-repeat;
+    background-size: cover;
+    padding: 0 30px 0 30px;
+    height: auto;
+    margin-bottom: -15px;
+}
+
+    .background-fourth-content
+    {
+        background: url(Background3.png) no-repeat;
+        background-size: cover;
+        height: 888px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+        .fourth-content
+        {
+            margin-top: -44px;
+        }
+
+            .title-fourth
+            {    
+                color: white;
+                font-size: 165px;
+            }
+
+/*Fifth Page Style*/
+.background-fifth
+{
+    background: url(background%20putih%20faded.png);
+    background-size: cover;
+    padding: 0 30px;
+    margin-top: 0;
+    height: auto;
+}
+
+    .background-fifth-content
+    {
+        background-color: white;
+        height: 0;
+    }
+
+        .content-fifth
+        {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            position: relative;
+            top: -250px;
+            z-index: 0;
+        
+        }
+            .boundary-images
+            {
+                background-color: rgba(255,255,255,0.6);
+                border-radius: 58px;
+                margin: auto;
+                overflow: hidden;
+                padding: 20px;
+            }
+                .images-content
+                {
+                    border-radius: 42px;
+                    margin: auto;
+                    overflow: hidden;
+                }
+                    .images-itself
+                    {
+                        width: 300px;
+                        height: auto;
+                    }
+.background-sixth
+{
+    background: url(enam-faded.png) no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 0 30px;
+    margin-top: -36px;
+}
+
+.sixth-content
+{
+    background: url(mourad-saadi-748211-unsplash.png) no-repeat;
+    background-size: 100%;
+    height: 2364px;
+}
+
+.container-sixth
+{
+    position: relative;
+    top: 0;
+}
+
+.group-image
+{
+    position: absolute;
+    top: 740px;
+}
+.content-sixth
+{
+    position: relative;
+    top: 400;
+    display: flex;
+    width: 100%;
+    background-size: 100%;
+    margin: 0;
+    height: 300;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-gallery
+{
+    font-size: 160px;
+    letter-spacing: 35px;
+    color: white;
+}
+
+.category-image
+{
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+}
+
+.boundary-image
+{
+    width: 25%;
+}
+
+
+.image-that
+{
+    width: 100%;
+    height: auto;
+}
+/*
+.text-through
+{
+  display: table;
+        position: absolute;
+    top: 2018px;
+    left: 193px;
+}
+.table-text
+{
+  display: table-row;
+}
+.text-border {
+  display: table-cell;
+  position: relative;
+  width: 35%;
+}
+.literally-border {
+  position: absolute;
+  width: 100%;
+  top: 55%;
+  border-bottom: 1px solid black;
+}
+
+.text-content
+{
+    width: 30%
+}
+p.text-content-p {
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 36px;
+}*/
+
+.background-seventh
+{
+    background: url(below%20header%20faded.png) no-repeat;
+    background-size: cover;
+    padding: 0px 30px 0 30px;
+    height: auto;
+}
+
+.base-seventh
+{
+    background: url(below%20header.png) no-repeat;
+    background-size: cover;
+    width: auto;
+    margin: 0;
+    height: 600px;
+}
+
+.content-container-7
+{
+    position: relative;
+    top: -165px;
+}
+
+p.header-text-7-type
+{
+    color: white;
+    font-size: 120px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+.volun-content
+{
+    background: url(background%20putih%20faded.png) no-repeat;
+    background-size: cover;
+    height: auto;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.background-content-v
+{
+    background-color: white;
+    background-size: cover;
+    height: 20px;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+.container-content-v
+{
+    position: absolute;
+    top: -545px;
+}
+
+.group-content-v
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.category
+{
+    background-color: #4C4244;
+    /* width: auto; */
+    text-align: center;
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 40px;
+}
+
+.category p
+{
+    color: white;
+    font-size: 40px;
+}
+.category i
+{
+    color: white;
+    font-size: 120px;
+}
+
+.logo-content
+{
+    
+}
+
+.background-eight
+{
+    background: url(Background-last%20faded.png) no-repeat;
+    background-size: cover;
+    padding: 0px 30px 30px 30px;
+    height: auto;
+}
+
+.base-eight
+{
+    background: url(Background-last.png) no-repeat;
+    background-size: cover;
+    height: 888px;
+    margin:0;
+        
+}
+
+.content-container-8
+{
+    position: relative;
+}
+
+.header-text-8
+{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+p.header-text-8-type
+{
+    color: white;
+    font-size: 120px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.group-content-8
+{
+    display: flex;
+    justify-content: center;
+}
+.contact-logo i
+{
+    color: white;
+    font-size: 80px;
+}
+
+.icon-8
+{
+    position: absolute;
+    top: 550px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+
+
+
+
+.footer p
+{
+    font-family: 'open_sanslight';
+    color: white;
+    
+}
